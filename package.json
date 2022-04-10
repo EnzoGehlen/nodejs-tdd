@@ -2,10 +2,11 @@
   "name": "projetonode",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js", 
+  "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test:staged": "jest"
+    "test": "jest --passWithNoTests",
+    "test:staged": "jest --passWithNoTests",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
